@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Scheduled flow to check for overdue NeedIt Tasks, close the overdue tasks, update the work notes for the task with a reason, and log the automatic closure.</description>
+        <internal_name>scheduled_flow</internal_name>
+        <label_cache>[{"name":"64c82d30-0959-4a85-8da5-afc586b4a6e3.propertyoutput","label":"1➛PropertyOutput","reference_display":"PropertyOutput","type":"string","base_type":"string"},{"name":"55c3f7b6-0d31-4846-b3a2-b91aa2db9cc6.calculated_date","label":"2➛Calculated date","reference_display":"Calculated date","type":"glide_date","base_type":"glide_date"},{"name":"6b2e0ade-7cd6-41fb-ba12-d3042efe6ea5.calculated_date","label":"2➛Calculated date","reference_display":"Calculated date","type":"glide_date","base_type":"glide_date"},{"name":"a34a72f5-d15d-420d-85cb-09a161b7a6cb.calculated_date","label":"2➛Calculated date","reference_display":"Calculated date","type":"glide_date","base_type":"glide_date"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Scheduled flow 1</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-22 17:46:37</sys_created_on>
+        <sys_id>8022d7d81bc533000830986cbc4bcbad</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Scheduled flow 1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_8022d7d81bc533000830986cbc4bcbad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-22 19:11:45</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=8022d7d81bc533000830986cbc4bcbad"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8022d7d81bc533000830986cbc4bcbad"/>
+</record_update>

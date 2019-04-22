@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get the date of the selected Needit records and pass it to if else statement</description>
+        <internal_name>handlethedateofselectedrecords</internal_name>
+        <label_cache>[{"name":"94b4a0bc-af74-4b9d-8968-9340682a5d23.record.due_date","label":"1➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"},{"name":"subflow.needit.number","label":"Input➛NeedItTask➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"94b4a0bc-af74-4b9d-8968-9340682a5d23.table_name","label":"1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"table_name","base_type":"table_name"},{"name":"94b4a0bc-af74-4b9d-8968-9340682a5d23.record","label":"1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"subflow.reason","label":"Input➛Reason","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.needit.due_date","label":"Input➛NeedIt➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit","column_name":"due_date"},{"name":"a0c4b484-c0e8-44f7-ad9a-5666f76d696d.needitdate","label":"3➛NeedItDate","type":"glide_date_time","base_type":"glide_date_time"},{"name":"subflow.needit","label":"Input➛NeedItTask","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference","column_name":""}]</label_cache>
+        <latest_snapshot>cd63a7d41b0933000830986cbc4bcbe7</latest_snapshot>
+        <master_snapshot>cd63a7d41b0933000830986cbc4bcbe7</master_snapshot>
+        <name>HandleTheDateOfSelectedRecords</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-22 18:17:05</sys_created_on>
+        <sys_id>1219d3101b0933000830986cbc4bcba5</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>HandleTheDateOfSelectedRecords</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_1219d3101b0933000830986cbc4bcba5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-22 19:13:31</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=1219d3101b0933000830986cbc4bcba5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1219d3101b0933000830986cbc4bcba5"/>
+</record_update>
